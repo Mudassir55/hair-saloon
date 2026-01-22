@@ -71,7 +71,7 @@ const Hero = () => {
       <div className="relative z-10 min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-16 pt-32 pb-20">
         <div className="max-w-5xl">
           <h1 className="font-proxima w-[80%] lg:w-[80%] text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-normal text-[#f4f1ee] leading-[0.95] tracking-tight">
-            A place <br /> to slow down and <br /> leave sharper.
+            A place to<br />  slow down and <br /> leave sharper.
           </h1>
 
           <p className="font-proxima font-normal mt-8 md:mt-12 text-[#f4f1ee]/80 text-md md:text-lg max-w-md leading-relaxed">
