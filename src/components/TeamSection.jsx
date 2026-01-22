@@ -1,8 +1,8 @@
 import React from "react";
 
-import teamImage from "../assets/teamsectionimage.jpeg";
-import teamMember1 from "../assets/teammember1.jpeg";
-import teamMember2 from "../assets/teammember2.jpeg";
+import teamImage from "../assets/teamsectionimage.jpg";
+import teamMember1 from "../assets/teammember1.jpg";
+import teamMember2 from "../assets/teammember2.jpg";
 import teamMember3 from "../assets/teammember3.png";
 
 function TeamSection() {
