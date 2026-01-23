@@ -30,7 +30,7 @@ function ServicesBlock({ title, description, imageDesktop, imageMobile }) {
             {description}
           </p>
 
-          <a
+          {/* <a
             href="https://www.fresha.com/book-now/copenhagen-grooming-club-hcyt95ec/all-offer?share=true&pId=2747789"
             target="_blank"
             rel="noopener noreferrer"
@@ -49,9 +49,9 @@ function ServicesBlock({ title, description, imageDesktop, imageMobile }) {
               hover:bg-black
               transition-colors
             "
-          >
-            Appointment
-          </a>
+          > */}
+            {/* Appointment */}
+          {/* </a> */}
         </div>
       </div>
     </section>
@@ -68,7 +68,7 @@ function ServicesSection() {
         imageMobile={servicesBgMobile}
       />
       <ServicesBlock
-        title="Relax, Unwind"
+        title="Relax. Unwind."
         description="Every service ends with time in our zero-gravity massage chairs. Built into the visit, this final moment helps release tension through the body, leaving you lighter, settled and ready to step back out."
         imageDesktop={servicesBgMobile}
         imageMobile={servicesBgMobile}

@@ -21,10 +21,10 @@ const Hero = () => {
               href="#services"
               className="hover:text-[#eddbc0] transition-colors"
             >
-              Service
+              {/* Service */}
             </a>
             <a href="#about" className="hover:text-[#eddbc0] transition-colors">
-              About
+              {/* About */}
             </a>
           </div>
 
@@ -41,14 +41,14 @@ const Hero = () => {
 
           <div className="flex items-center gap-4">
             <a
-              href="tel:+31655605065"
+              href="tel:+31655605085"
               className="w-10 h-10 md:w-11 md:h-11 rounded-full border border-[#f4f1ee]/40 flex items-center justify-center hover:bg-[#f4f1ee]/10 transition"
             >
               <img src={phone} alt="phone" className="invert h-5 w-5" />
             </a>
 
             <a
-              href="https://wa.me/31655605065"
+              href="https://wa.me/31655605085"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 md:w-11 md:h-11 rounded-full border border-[#f4f1ee]/40 flex items-center justify-center hover:bg-[#f4f1ee]/10 transition"
