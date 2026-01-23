@@ -9,7 +9,7 @@ function ImageSection() {
         className="
           relative overflow-hidden
           w-full
-          max-w-[355px] h-[480px]
+          max-w-[455px] h-[480px]
           mx-auto
           md:max-w-[780px] md:h-[460px]
           lg:max-w-full lg:h-[680px]
