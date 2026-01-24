@@ -40,10 +40,10 @@ function Footer() {
           </div>
 
           {/* Center - Cleaned Address */}
-          <div className="font-proxima text-[16px] leading-[22px] text-left md:text-center"
+          <div className="font-proxima-nova text-[16px] leading-[22px] text-left md:text-center"
             style={{ fontVariantLigatures: "none", fontFeatureSettings: "'liga' 0" }}
                >
-            Overtoom 471 1054 LE <br />
+            Overtoom 471, 1054 LE <br />
              Oud West Amsterdam
           </div>
           {/* Right */}

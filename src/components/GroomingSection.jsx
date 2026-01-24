@@ -24,7 +24,7 @@ const GroomingSection = () => {
 
             <p
               className="
-              font-proxima
+              font-proxima-nova
               mt-8
               text-[16px]
               leading-[22px]

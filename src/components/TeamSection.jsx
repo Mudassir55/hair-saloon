@@ -25,7 +25,7 @@ function TeamSection() {
           </div>
         </div>
         <div className="w-full">
-          <div className="relative w-full aspect-[3/4] md:aspect-[4/5] lg:aspect-[1200/680] object-contain">
+          <div className="relative w-full aspect-[3/3] md:aspect-[3/4] lg:aspect-[1200/680] object-contain">
             <img
               src={teamImage}
               alt="Team"

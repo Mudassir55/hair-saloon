@@ -26,7 +26,7 @@ function ServicesBlock({ title, description, imageDesktop, imageMobile }) {
             {title}
           </h2>
 
-          <p className="mt-4 font-proxima text-[16px] leading-[22px] text-[#4A4A4A] tracking-normal">
+          <p className="mt-4 font-proxima-nova text-[16px] leading-[22px] text-[#4A4A4A] tracking-normal">
             {description}
           </p>
 
@@ -65,7 +65,7 @@ function ServicesSection() {
         title="Our Services"
         description="Hair, beard, and facial treatments shaped around craft, care, and comfort, combining skilled barbering with a host-led approach. The focus stays on quality, not speed, and on how you’re treated from arrival to finish."
         imageDesktop={servicesBg}
-        imageMobile={servicesBgMobile}
+        imageMobile={servicesBg}
       />
       <ServicesBlock
         title="Relax. Unwind."
