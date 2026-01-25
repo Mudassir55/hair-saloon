@@ -1,6 +1,7 @@
 import React from "react";
 
 import teamImage from "../assets/teamsectionimage.jpg";
+import teamImageMobile from "../assets/teamsectionimagemobile.jpg";
 import teamMember1 from "../assets/teammember1.jpg";
 import teamMember2 from "../assets/teammember2.jpg";
 import teamMember3 from "../assets/teammember3.png";
@@ -25,13 +26,28 @@ function TeamSection() {
           </div>
         </div>
         <div className="w-full">
-          <div className="relative w-full aspect-[3/3] md:aspect-[3/4] lg:aspect-[1200/680] object-contain">
-            <img
-              src={teamImage}
-              alt="Team"
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-          </div>
+          <div className="relative w-full bg-[#EDDBC8]">
+
+  {/* Desktop image */}
+  <div className="hidden md:block relative w-full aspect-[1200/680]">
+    <img
+      src={teamImage}
+      alt="Team"
+      className="absolute inset-0 w-full h-full object-cover"
+    />
+  </div>
+
+  {/* Mobile image */}
+  <div className="md:hidden relative w-full aspect-[3/4]">
+    <img
+      src={teamImageMobile}
+      alt="Team"
+      className="absolute inset-0 w-full h-full object-contain"
+    />
+  </div>
+
+</div>
+
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           <div>
