@@ -46,10 +46,18 @@ function Footer() {
             Overtoom 471, 1054 LE <br />
              Oud West Amsterdam
           </div>
-          {/* Right */}
-          <div className="flex items-center gap-2 md:justify-start justify-start font-proxima text-[16px] leading-[22px]">
-            <span>Instagram</span>
-            <img src={instagram} alt="Instagram" className="w-5 h-5" />
+
+          {/* Right - Instagram Link Added Here */}
+          <div className="flex items-center md:justify-start justify-start">
+            <a 
+              href="https://www.instagram.com/copenhagengroomingclub" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 font-proxima text-[16px] leading-[22px] hover:opacity-70 transition-opacity"
+            >
+              {/* <span>Instagram</span> */}
+              <img src={instagram} alt="Instagram" className="w-5 h-5" />
+            </a>
           </div>
         </div>
 

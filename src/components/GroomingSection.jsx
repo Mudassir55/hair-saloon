@@ -35,7 +35,7 @@ const GroomingSection = () => {
             >
               Copenhagen Grooming Club is a grooming space shaped around
               precision and how guests are received. Skilled barbering is paired
-              with a calm, hostled experience, where craft, care, and comfort
+              with a calm, host-led experience, where craft, care, and comfort
               guide your visit. The focus stays on you throughout the visit.
             </p>
           </div>
